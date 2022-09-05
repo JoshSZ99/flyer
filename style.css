@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    margin: 200px 500px;
+    background-color: antiquewhite;
+}
+body{
+    height: 500px;
+}
+
+@media (max-width:1005px) {
+    section{
+        background-image: url(wht2.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        opacity: 0.9;
+        width: 340px;
+        font-family: 'Acme';
+    }
+    .container{
+        width: 300px;
+        margin: 20px 20px 0px 20px;
+        padding: 15px;
+        background-color: rgb(200, 200, 200, 0.2);
+    }
+    .container2{
+        width: 300px;
+        margin: 0px 20px 0px 20px;
+        padding: 0px 0px 0px 15px;
+        background-color: rgb(200, 200, 200, 0.2);
+    }
+    .cont{
+        display: flex;
+    }
+    img{
+        width: 100%;
+    }
+    .cont2{
+        background-color: rgb(200, 200, 200, 0);
+    }
+    .course{
+        border: 1px solid hsl(300, 100%, 25%, 0.8);
+        padding: 2px 0px 2px 10px;
+        width: 150px;
+        font-size: 10px;
+        color: rgb(94, 5, 94);
+        border-radius: 10px;
+        margin: 0px 0px 3px 0px;
+    }
+    .fr{
+        border-radius: 10px 0px 0px 0px;
+    }
+    .ui{
+        border-radius: 0;
+    }
+    .dt{
+        border-radius: 0px 0px 10px 0px;
+    }
+    .cont3{
+        height: 10px;
+    }
+    .plan{
+        font-size: 8px;
+        margin: 0px 0px 0px 0px;
+        padding: 2px 2px 2px 5px;
+        background-color: hsl(300, 100%, 25%, 0.8);
+        width: 100px;
+        color: white;
+        border-radius: 10px;
+    }
+    .listt{
+        font-size: 10px;
+        margin: 0px 0px 0px 0px;
+        padding: 2px 2px 2px 15px;
+        background-color: rgb(200, 200, 200, 0);
+        width: 170px;
+        color: hsl(300, 100%, 25%);
+    }
+    .pla{
+        font-size: 7px;
+        width: 136px;
+    }
+    .lis{
+        width: 100px;
+        padding: 3px;
+        width: 138px;
+    }
+    .foot{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 300px;
+        margin: 0px 20px 0px 35px;
+        padding: 5px 15px 2px 15px;
+        background-color: hsl(300, 100%, 25%, 0.8);
+        font-size: 10px;
+        text-align: center;
+        color: white;
+        border-radius: 10px 0px 0px 0px;
+    }
+    .foots{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto;
+        width: 300px;
+        margin: 0px 20px 0px 35px;
+        padding: 0px 0px 6px 0px;
+        background-color: hsl(300, 100%, 25%, 0.8);
+        font-size: 8px;
+        text-align: center;
+        color: white;
+        border-radius: 0px 0px 10px 0px;
+    }
+}
